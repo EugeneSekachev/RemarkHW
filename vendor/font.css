@@ -1,0 +1,18 @@
+@font-face {
+  src: url("../fonts/Manropebold.woff2") format("woff2"),
+      url("../fonts/Manropebold.woff") format("woff");
+  font-family: "Monrope";
+  font-weight: bold;
+}
+@font-face {
+  src: url("../fonts/Manropemedium.woff2") format("woff2"),
+      url("../fonts/Manropemedium.woff") format("woff");
+  font-family: "Monrope";
+  font-weight: 500;
+}
+@font-face {
+  src: url("../fonts/Manroperegular.woff2") format("woff2"),
+      url("../fonts/Manroperegular.woff") format("woff");
+  font-family: "Monrope";
+  font-weight: normal;
+}

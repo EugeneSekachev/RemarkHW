@@ -1,0 +1,79 @@
+@import url(./__element/slider__element.css);
+@import url(./__img/slider__img.css);
+@import url(./__sign/slider__sign.css);
+
+.slider {
+  min-width: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin: 0 60px;
+}
+
+.slider .slick-arrow{
+  position: absolute;
+  top: -40px;
+  z-index: 3;
+  font-size: 0;
+  width: 24px;
+  height: 24px;
+  background: url(../../image/arrow__slick.svg) 0 0 / 100% no-repeat;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+.slider .slick-arrow:hover {
+  opacity: .7;
+
+}
+
+.slider .slick-arrow.slick-prev{
+  right: 36px;
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.slider .slick-arrow.slick-next{
+  right: 0;
+}
+
+.slider .slick-arrow.slick-disabled{
+  opacity: 0.4;
+  cursor: default;
+}
+
+@media screen and (max-width: 900px) {
+  .slider {
+    margin: 0 36px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .slider {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .slider .slick-arrow{
+    top: 100%;
+  }
+  .slider .slick-arrow.slick-prev{
+    right: 50%;
+  }
+  .slider .slick-arrow.slick-next{
+    right: 40%;
+  }
+}

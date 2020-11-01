@@ -1,0 +1,9 @@
+@import url(./__container/news__container.css);
+@import url(./__img-box/news__img-box.css);
+@import url(./__image/news__image.css);
+@import url(./__title/news__title.css);
+@import url(./__text/news__text.css);
+
+.news {
+ margin: 40px 0;
+}
